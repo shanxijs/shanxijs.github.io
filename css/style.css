@@ -352,60 +352,10 @@ a:hover, a:active {
         .list-with-title .listing .listing-post a:hover {
           color: #4786D6; }
 
-/* share */
-.share {
-  margin: 0px 30px;
+/* 百度分享 */
+.bdsharebuttonbox {
+  margin: 0px 25px;
   display: inline-flex; }
-
-.evernote {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #3E3E3E;
-  margin-right: 5px; }
-  .evernote a {
-    color: #fff;
-    padding: 11px;
-    font-size: 12px; }
-  .evernote a:hover {
-    color: #ED6243;
-    padding: 11px; }
-
-.weibo {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #ED6243;
-  margin-right: 5px; }
-  .weibo a {
-    color: #fff;
-    padding: 9px; }
-  .weibo a:hover {
-    color: #BD4226; }
-
-.twitter {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #59C0FD;
-  margin-right: 5px; }
-  .twitter a {
-    color: #fff;
-    padding: 9px; }
-  .twitter a:hover {
-    color: #4B9ECE; }
-
-.qq {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #59C0FD;
-  margin-right: 5px; }
-  .qq a {
-    color: #fff;
-    padding: 8px; }
-  .qq a:hover {
-    color: #4B9ECE; }
 
 /* about */
 .about {
@@ -568,5 +518,6 @@ a.btn {
     position: absolute; }
   .footer {
     display: none; }
-  .share {
-    display: grid; } }
+  .bdsharebuttonbox {
+    display: grid;
+    margin-left: 25px; } }
