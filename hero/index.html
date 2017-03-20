@@ -39,6 +39,9 @@
     overflow:hidden;
     line-height:20px;
   }
+  #app .main p.link{
+      height:30px;
+  }
   @media screen and (max-width: 950px) {
     #app .main{
       flex-basis: 100%;
@@ -265,7 +268,7 @@
   <div class="main">
       <img src="[:=modules[i].avatar:]" alt="">
       <h1>[:=modules[i].name:]</h1>
-      <p><a target="_blank" href="[:=modules[i].blog:]">博客</a>   <a target="_blank" href="[:=modules[i].github:]">Github</a>   <a target="_blank" href="[:=modules[i].website:]">网站</a></p>
+      <p class="link"><a target="_blank" href="[:=modules[i].blog:]">博客</a>   <a target="_blank" href="[:=modules[i].github:]">Github</a>   <a target="_blank" href="[:=modules[i].website:]">网站</a></p>
       <p>[:=modules[i].word:]</p>
   </div>
   [:}:]
